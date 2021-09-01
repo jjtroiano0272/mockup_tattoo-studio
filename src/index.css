@@ -12,6 +12,15 @@ code {
     monospace;
 }
 
-.color-palette {
-  background-color: #5dc5c3;
+.lha-title {
+  font-family: 'Cookie', cursive;
+  text-transform: uppercase;
+}
+
+.lha-title-main {
+  font-size: 1em;
+}
+
+.lha-title-sub {
+  font-size: 0.5em;
 }
