@@ -13,7 +13,7 @@
 
 ## Navbar
 
-- Home
+- ~Home (get rid of this and replace with first-line centered logo)
 - Gallery
 - Appointment Protocol
   subsection with the print-out sheet
