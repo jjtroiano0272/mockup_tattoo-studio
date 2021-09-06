@@ -3,7 +3,7 @@ import './App.css';
 import 'font-awesome/css/font-awesome.min.css';
 // FIXME: To future-proof, this should be an SVG.
 // FIXME: must be in /src
-import lha_logo from '/lha-logo-square-light.png';
+import lha_logo from '/images/lha-logo-square-light.png';
 // Icon libraries
 import { BiEnvelope, BiHelpCircle } from 'react-icons/bi';
 import { IoIosImages } from 'react-icons/io';
@@ -110,6 +110,7 @@ function App() {
           </div>
         </div>
 
+        {/* Map styling options: https://mdbootstrap.com/docs/b4/jquery/javascript/google-maps/ */}
         <div className='row'>
           <div className='col-xs-12 col-sm-12 justify-content-center'>
             <Iframe
