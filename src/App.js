@@ -2,7 +2,8 @@ import Iframe from 'react-iframe';
 import './App.css';
 import 'font-awesome/css/font-awesome.min.css';
 // FIXME: To future-proof, this should be an SVG.
-import lha_logo from './logos/lha-logo-square-light.png';
+// FIXME: must be in /src
+import lha_logo from '/lha-logo-square-light.png';
 // Icon libraries
 import { BiEnvelope, BiHelpCircle } from 'react-icons/bi';
 import { IoIosImages } from 'react-icons/io';
