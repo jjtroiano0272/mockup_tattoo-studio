@@ -18,3 +18,7 @@
 - Appointment Protocol
   subsection with the print-out sheet
 - Contact Us (this should be both Contact & Book)
+
+### Styling
+
+- JS feature that has content 'slide in' when you scroll past a section

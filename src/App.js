@@ -3,7 +3,7 @@ import './App.css';
 import 'font-awesome/css/font-awesome.min.css';
 // FIXME: To future-proof, this should be an SVG.
 // FIXME: must be in /src
-import lha_logo from '/logo.svg';
+import lha_logo from './lha-logo-square-light.png';
 // Icon libraries
 import { BiEnvelope, BiHelpCircle } from 'react-icons/bi';
 import { IoIosImages } from 'react-icons/io';
@@ -14,6 +14,7 @@ import Button from 'react-bootstrap/Button';
 import Tooltip from 'react-bootstrap/Tooltip';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 
+// TODO: Navbar shows up AFTER scroll
 // $(window).scroll(function () {
 //   if ($(this).scrollTop() > 300) {
 //     $('.navbar-fixed-top').addClassName('opaque');
@@ -110,8 +111,19 @@ function App() {
           </div>
         </div>
 
-        {/* Map styling options: https://mdbootstrap.com/docs/b4/jquery/javascript/google-maps/ */}
         <div className='row'>
+          <div className='col-xs col-sm-6 text-center mx-auto'>
+            <p>
+              Thanks for visiting Light Hand Arts. I opened up Light Hand as my
+              private studio in August of 2019 and it’s been a crazy time as a
+              small business owner. Thanks to your love & support this ship is
+              still cruising, and I am blessed to be tattooing, again.
+            </p>
+          </div>
+        </div>
+
+        {/* Map styling options: https://mdbootstrap.com/docs/b4/jquery/javascript/google-maps/ */}
+        <div className='row m-5'>
           <div className='col-xs-12 col-sm-12 justify-content-center'>
             <Iframe
               src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d57051.58300452991!2d-81.867815!3d26.65732!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x16d849ce99fa64ec!2sLight%20Hand%20Tattoo%20%26%20Healing%20Arts!5e0!3m2!1sen!2sus!4v1630526691914!5m2!1sen!2sus'
@@ -127,7 +139,7 @@ function App() {
 
       <footer>
         <div className='container-fluid mt-5 bg-teal'>
-          <div className='row my-4'>
+          <div className='row my-auto'>
             <div className='col-xs-6 col-sm text-muted text-center'>
               <a
                 href='https://www.instagram.com/spiritualtattooer/'
