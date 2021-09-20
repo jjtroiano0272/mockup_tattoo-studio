@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.a617e044.chunk.css",
-    "main.js": "/static/js/main.a7d97650.chunk.js",
-    "main.js.map": "/static/js/main.a7d97650.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c3e8355b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c3e8355b.js.map",
-    "static/js/2.2bc49856.chunk.js": "/static/js/2.2bc49856.chunk.js",
-    "static/js/2.2bc49856.chunk.js.map": "/static/js/2.2bc49856.chunk.js.map",
-    "static/js/3.bd58dfca.chunk.js": "/static/js/3.bd58dfca.chunk.js",
-    "static/js/3.bd58dfca.chunk.js.map": "/static/js/3.bd58dfca.chunk.js.map",
+    "main.css": "/static/css/main.7a2b819b.chunk.css",
+    "main.js": "/static/js/main.7552be00.chunk.js",
+    "main.js.map": "/static/js/main.7552be00.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b36e8826.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b36e8826.js.map",
+    "static/css/2.f78674c2.chunk.css": "/static/css/2.f78674c2.chunk.css",
+    "static/js/2.d358cc44.chunk.js": "/static/js/2.d358cc44.chunk.js",
+    "static/js/2.d358cc44.chunk.js.map": "/static/js/2.d358cc44.chunk.js.map",
+    "static/js/3.7e00dbb0.chunk.js": "/static/js/3.7e00dbb0.chunk.js",
+    "static/js/3.7e00dbb0.chunk.js.map": "/static/js/3.7e00dbb0.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.2bc49856.chunk.js.LICENSE.txt": "/static/js/2.2bc49856.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "static/css/2.f78674c2.chunk.css.map": "/static/css/2.f78674c2.chunk.css.map",
+    "static/css/main.7a2b819b.chunk.css.map": "/static/css/main.7a2b819b.chunk.css.map",
+    "static/js/2.d358cc44.chunk.js.LICENSE.txt": "/static/js/2.d358cc44.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/lha-logo-square-light.82220b25.png": "/static/media/lha-logo-square-light.82220b25.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c3e8355b.js",
-    "static/js/2.2bc49856.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.a7d97650.chunk.js"
+    "static/js/runtime-main.b36e8826.js",
+    "static/css/2.f78674c2.chunk.css",
+    "static/js/2.d358cc44.chunk.js",
+    "static/css/main.7a2b819b.chunk.css",
+    "static/js/main.7552be00.chunk.js"
   ]
 }
