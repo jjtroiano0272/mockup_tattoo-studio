@@ -1,3 +1,4 @@
+import React, { Component } from 'react';
 import Iframe from 'react-iframe';
 import './App.css';
 import 'font-awesome/css/font-awesome.min.css';
@@ -30,6 +31,7 @@ function App() {
     </Tooltip>
   );
   const apptProtocolTooltip = (props) => (
+    // TODO: Include a link to the 'post tattoo care' sheet she gives after
     <Tooltip id='button-tooltip' {...props}>
       Appointment Protocol Committed to everyone’s safety and to ensure we have
       the most productive use of our time, please take not of the following
