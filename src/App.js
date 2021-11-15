@@ -25,6 +25,7 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 // });
 
 function App() {
+  // TODO: use as /component/common SFC component
   const appointmentTooltip = (props) => (
     <Tooltip id='button-tooltip' {...props}>
       To schedule an appointment, click the 'contact-us' button.
@@ -45,20 +46,16 @@ function App() {
 
   return (
     // You CANNOT get rid of this otherwise React doesn't recognize the structure.
-    // TODO: Some nice 'swoops' and arrow sections. Swoop with a light grey to keep it subtle.
-    // TODO: That kind of 'fade-in content as you scroll down to it' style
-    // TODO: An 'about your artist' section
-    <div className='App'>
-      {/* FIXME: Using justify-content-center as an alignment class miiiight cause future issues! */}
-      {/* FIXME: Make the sibling buttons/icons have a nice little animation to them, like a jiggle/waggle */}
+
+    <React.Fragment>
       <nav className='navbar navbar-dark bg-dark sticky-top'>
+        <h4 className='ribbon'>DRAFT</h4>
         <div className='row align-items-center mx-auto'>
           <div className='col text-light text-center'>
             <a className='text-reset' href='#'>
               <IoIosImages className='fa-2x anim-wiggle' />
             </a>
           </div>
-
           {/* Central logo */}
           <div className='col-6 mx-3'>
             <a href='#'>
@@ -69,7 +66,6 @@ function App() {
               />
             </a>
           </div>
-
           <div className='col text-light text-center'>
             <OverlayTrigger
               placement='right'
@@ -85,7 +81,6 @@ function App() {
         {/* Collapible section where it says it's by APPOINTMENT ONLY (should also have a link to email/schedule) */}
         {/* <div className='accordion' id='accordionExample'> */}
         {/* <div class='accordion-item'> */}
-
         {/* </div> */}
         {/* </div> */}
       </nav>
@@ -103,7 +98,6 @@ function App() {
           </a>
         </OverlayTrigger>
       </nav>
-
       <div className='container'>
         <div className='row'>
           <div className='col-xs col-sm text-center'>
@@ -112,7 +106,6 @@ function App() {
             <h3 className='lha-title lha-title-sub-loc mb-5'>Suite A1b</h3>
           </div>
         </div>
-
         <div className='row'>
           <div className='col-xs col-sm-6 text-center mx-auto'>
             <p>
@@ -123,7 +116,6 @@ function App() {
             </p>
           </div>
         </div>
-
         {/* Map styling options: https://mdbootstrap.com/docs/b4/jquery/javascript/google-maps/ */}
         <div className='row m-5'>
           <div className='col-xs-12 col-sm-12 justify-content-center'>
@@ -138,7 +130,6 @@ function App() {
           </div>
         </div>
       </div>
-
       <footer>
         <div className='container-fluid mt-5 bg-teal'>
           <div className='row my-auto'>
@@ -169,7 +160,7 @@ function App() {
           </div>
         </div>
       </footer>
-    </div>
+    </React.Fragment>
   );
 }
 

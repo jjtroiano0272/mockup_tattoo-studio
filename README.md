@@ -10,6 +10,9 @@
 
 - Some constant pics
 - IG feed
+- Some nice 'swoops' and arrow sections. Swoop with a light grey to keep it subtle.
+- That kind of 'fade-in content as you scroll down to it' style
+- An 'about your artist' section
 
 ## Navbar
 
@@ -18,6 +21,7 @@
 - Appointment Protocol
   subsection with the print-out sheet
 - Contact Us (this should be both Contact & Book)
+- {/_ TODO: Deconstruct into its own file: a NavBar component _/}
 
 ### Styling
 
