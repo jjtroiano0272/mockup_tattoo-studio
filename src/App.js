@@ -14,6 +14,7 @@ import { GrLocation } from 'react-icons/gr';
 import Button from 'react-bootstrap/Button';
 import Tooltip from 'react-bootstrap/Tooltip';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Footer from './components/Footer';
 
 // TODO: Navbar shows up AFTER scroll
 // $(window).scroll(function () {
@@ -47,7 +48,7 @@ function App() {
   return (
     // You CANNOT get rid of this otherwise React doesn't recognize the structure.
 
-    <React.Fragment>
+    <>
       <nav className='navbar navbar-dark bg-dark sticky-top'>
         <h4 className='ribbon'>DRAFT</h4>
         <div className='row align-items-center mx-auto'>
@@ -130,7 +131,7 @@ function App() {
           </div>
         </div>
       </div>
-      <footer>
+      {/* <footer>
         <div className='container-fluid mt-5 bg-teal'>
           <div className='row my-auto'>
             <div className='col-xs-6 col-sm text-muted text-center'>
@@ -138,7 +139,6 @@ function App() {
                 href='https://www.instagram.com/spiritualtattooer/'
                 className='social-media-icons icons-ig'
               >
-                {/* FIXME: Apply the real IG gradient style to the coloring */}
                 <FaInstagram className='fa-1x' />
               </a>
             </div>
@@ -152,15 +152,14 @@ function App() {
             </div>
           </div>
           <div className='row'>
-            {/* <footer className='text-muted'> */}
             <div className='col text-muted text-center'>
               <p>© 2021 Copyright: Ananda War</p>
             </div>
-            {/* </footer> */}
           </div>
         </div>
-      </footer>
-    </React.Fragment>
+      </footer> */}
+      <Footer />
+    </>
   );
 }
 

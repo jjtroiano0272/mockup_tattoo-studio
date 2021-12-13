@@ -1,3 +1,27 @@
+[data-theme='light'] {
+  --bg-color: #fff;
+  --font-color: #424242;
+  --primary-color: #302ae6;
+  --secondary-color: #536390;
+  --heading-color: #292922;
+  --shadow: rgba(0, 0, 0, 0.12);
+  --navbar-text: rgba(0, 0, 0, 0.9);
+}
+
+[data-theme='dark'] {
+  --bg-color: #161625;
+  --font-color: #c2c2da;
+  --primary-color: #9a97f3;
+  --secondary-color: #8a97bb;
+  --heading-color: #818cab;
+  --confirm--color: #00897b;
+  --warning--color: #30349f;
+  --remove--color: #c62828;
+  --help--color: #673ab7;
+  --shadow: rgba(255, 255, 255, 0.12);
+  --navbar-text: rgba(255, 255, 255, 0.55);
+  --border-color: #858585;
+}
 .App {
   /* text-align: center; */
 }
@@ -101,6 +125,18 @@
 
 .icons-ig:hover {
   color: #833ab4;
+}
+
+.pointer {
+  text-decoration: none !important;
+  cursor: pointer;
+  color: var(--secondary-color);
+}
+
+.pointer:hover {
+  text-decoration: none !important;
+  cursor: pointer;
+  color: var(--primary-color);
 }
 
 @keyframes wiggle {
