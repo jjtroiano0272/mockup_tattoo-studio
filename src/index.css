@@ -36,6 +36,16 @@ code {
     monospace;
 }
 
+.return-to-top {
+  size: '2rem';
+}
+
+.return-to-top:hover {
+  size: '2.1rem';
+  background-color: var(--bg-color);
+  border-radius: 50%;
+}
+
 .lha-title {
   font-family: 'Dancing Script', cursive;
   letter-spacing: 0.2em;
@@ -93,4 +103,142 @@ code {
 
 .sb-1 {
   box-shadow: 0px 5px 15px 1px var(--shadow);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+/* ================================================================ */
+/* ================================================================ */
+/* Custom classes added by moi */
+/* ================================================================ */
+/* ================================================================ */
+
+.main-logo {
+  /* Define property to change here and what transition we need */
+  height: 8em;
+  width: auto;
+  margin: 0.4em;
+  padding: 0.6em;
+  border: 1.5px solid rgba(255, 255, 255, 0);
+  border-radius: 100%;
+  transition: border 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+
+.main-logo:hover {
+  /* Define propery 'change-to' state here. */
+  border: 1.5px solid rgba(255, 255, 255, 0.8);
+  height: 8.5em;
+}
+
+.navbar-alert {
+  width: 100%;
+}
+
+.bg-teal {
+  background-color: #5dc5c3;
+}
+
+.navbar-fixed-top {
+  background-color: rgba(255, 255, 255, 1);
+  transition: background-color 2s ease 0s;
+}
+.navbar-fixed-top.opaque {
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color 2s ease 0s;
+}
+
+.navbar-icons {
+}
+
+/* FIXME: There might be a more elgant way to write this. */
+a > .social-media-icons {
+  font-size: 4rem;
+  color: inherit;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.icons-fb {
+  color: inherit;
+  transition: color 250ms ease-in-out;
+}
+.icons-fb:hover {
+  color: #4267b2;
+}
+
+.icons-ig {
+  color: inherit;
+  transition: color 250ms ease-in-out;
+}
+
+.icons-ig:hover {
+  color: #833ab4;
+}
+
+.pointer {
+  text-decoration: none !important;
+  cursor: pointer;
+  color: var(--secondary-color);
+}
+
+.pointer:hover {
+  text-decoration: none !important;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+}
+
+.anim-wiggle {
+  display: inline-block;
+  animation: none;
+}
+
+.anim-wiggle:hover {
+  animation: wiggle 1.5s 2;
 }
