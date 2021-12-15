@@ -21,8 +21,9 @@
 - Appointment Protocol
   subsection with the print-out sheet
 - Contact Us (this should be both Contact & Book)
-- {/_ TODO: Deconstruct into its own file: a NavBar component _/}
+- [x] Deconstruct into its own file: a NavBar component \_/}
 
 ### Styling
 
 - JS feature that has content 'slide in' when you scroll past a section
+- [ ] Navbar Blurs content behind it
