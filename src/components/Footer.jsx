@@ -5,33 +5,28 @@ export default function Footer(props) {
   return (
     <footer className='bg-teal pt-4'>
       {/* Top row that shows social links */}
-      <div className='d-flex justify-content-around align-items-center my-4'>
-        <div className='col-xs-6 col-sm-6'>
+      {/* <div className='d-flex justify-content-around align-items-center my-4'> */}
+      <div className='row my-2 align-items-center'>
+        <div className='col-xs-6 col-sm-6 text-center'>
           <a href='https://www.instagram.com/spiritualtattooer/'>
             <InstagramLogo className='social-media-icons icons-ig' />
           </a>
+          <p className='text-muted small '>© 2021 Copyright: Ananda War</p>
         </div>
-        <div className='col-xs-6 col-sm-6'>
+        <div className='col-xs-6 col-sm-6 text-center'>
           <a href='https://www.facebook.com/lighthandarts/'>
             <FacebookLogo className='social-media-icons icons-fb' />
           </a>
+          <p className='text-muted small'>
+            Created by{' '}
+            <a
+              href='https://portfolio-page-vite-6r4.pages.dev/'
+              className='pointer'
+            >
+              <strong>Jonathan J. Troiano</strong>
+            </a>
+          </p>
         </div>
-      </div>
-      {/* Next row displays credits */}
-      <div className='d-flex justify-content-end px-3'>
-        <p className='text-muted small '>© 2021 Copyright: Ananda War</p>
-        <p className='text-muted small text-end'>
-          Created by Jonathan J. Troiano
-        </p>
-      </div>
-      {/* Flush right, under my name */}
-      <div className='d-flex justify-content-end px-3'>
-        <a
-          href='https://portfolio-page-vite-6r4.pages.dev/'
-          className='pointer text-muted'
-        >
-          View Profile
-        </a>
       </div>
 
       <div className='row'>
